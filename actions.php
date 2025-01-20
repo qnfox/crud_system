@@ -1,4 +1,5 @@
 <?php
+require 'config.php';
 require 'inc/db.php';
 Db::connect();
 if (isset($_GET['action']))
